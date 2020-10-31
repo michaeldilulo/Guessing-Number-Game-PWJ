@@ -62,16 +62,16 @@ function saveGuessHistory(guess) {
 
 function displayHistory() {
     //start at the end of the array
-    let index = guesses.length - 1;
-    let list = "<ul class='list-group'>";
+    // let index = guesses.length - 1;
+    // let list = "<ul class='list-group'>";
 
-    while (index >= 0) {
-        list += "<li class='list-group-item'>" +
-            "You Guessed  " + guesses[index] + "</li>"
-        index -= 1
-    }
-    list += '</ul>'
-    document.getElementById("history").innerHTML = list;
+    // while (index >= 0) {
+    //     list += "<li class='list-group-item'>" +
+    //         "You Guessed  " + guesses[index] + "</li>"
+    //     index -= 1
+    // }
+    // list += '</ul>'
+    // document.getElementById("history").innerHTML = list;
 }
 
 function getDialog(dialogType, text) {
